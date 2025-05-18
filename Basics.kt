@@ -1,11 +1,12 @@
 package sa.dev.kotlinbasics
 
-
+//
+//fun main(){
+//val myChar = '\u00AE'
+//    println(myChar)
+//}
 fun main(){
-    val myTrue: Boolean = true
-    val myFalse: Boolean = false
+    var name = "Sami"
+    println(name.uppercase())
 
-//    println(myTrue || myFalse) //true
-    println(myTrue && myFalse) //false
-//    println(!myTrue) //false
 }
